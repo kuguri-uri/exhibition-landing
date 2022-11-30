@@ -1,0 +1,92 @@
+.calculating {
+	padding: 50px 0;
+    padding-bottom: 0px;
+    background: url(../img/tickets.jpg) center (center/cover) no-repeat;
+	.title {
+		text-align: center;
+	}
+	#day {
+		&:after {
+			content: '';
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			display: block;
+			width: 16px;
+			height: 16px;
+			background: url(../icons/switch.svg) center center/cover no-repeat;
+		}
+	}
+}
+.calculating__field {
+	width: 100%;
+	margin-top: 40px;
+    background-color: rgba(246, 246, 246, .7);
+	padding: 30px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: stretch;
+}
+.calculating__wrapper {
+	width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.calculating__subtitle {
+	text-align: center;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 30px;
+	&:first-child {
+		margin-top: 0;
+	}
+}
+.calculating__choose {
+	position: relative;
+	display: flex;
+    flex-direction: column;
+	margin: 20px 40px ;
+	justify-content: center;
+}
+.calculating__choose-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 170px;
+	height: 50px;
+    margin-bottom: 15px;
+	padding: 0 10px;
+	background: #fff;
+	box-shadow: 0 4px 15px rgba(0,0,0,.2);
+	border: none;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+	outline: 0;
+	transition: .3s all;
+}
+.calculating__choose-item_active {
+	color: #fff;
+	background-color: #b09477;
+}
+.calculating__divider {
+	width: 490px;
+	height: 1px;
+	margin: 40px auto;
+	background-color: rgba(0,0,0,.2);
+}
+.calculating__total {
+	width: 130px;
+	margin: 0 auto;
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+}
+.calculating__result {
+	font-size: 18px;
+	font-weight: 700;
+	span {
+		font-size: 36px;
+	}
+}

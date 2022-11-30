@@ -1,0 +1,392 @@
+@media (max-width: 1023px) {
+    .container {
+        max-width: 700px;
+    }
+    .title {
+        font-size: 25px;
+    }
+    .header {
+        &__logo {
+            width: 200px;
+            img {
+                width: 100%;
+            }
+        }
+        &__official {
+            span {
+                font-size: 17px;
+            }
+        }
+        &__phone {
+            font-size: 15px;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+    }
+    .advantages {
+        &__icon {
+            max-width: 200px;
+        }
+    } 
+    .carousel {
+        &__inner {
+            height: 450px;
+            width: 500px;
+            img {
+                height: 370px;
+            }
+        }
+        .slick-prev {
+            transform: translateY(370%);
+            left: 150px;
+        }
+        .slick-next {
+            transform: translateY(370%);
+            right: 150px;
+        }
+    }
+    .catalog {
+        &__tab {
+            width: 180px;
+            font-size: 15px;
+            &_active {
+                color: #fff;
+            }
+        }
+    }
+}
+
+@media (max-width: 769px) {
+    .container {
+        max-width: 400px;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .header {
+        &__logo {
+            width: 150px;
+            img {
+                width: 100%;
+            }
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 15px;
+            }
+        }
+        &__phone {
+            font-size: 13px;
+        }
+    }
+    .promo {
+        min-height: 570px;
+        &__header {
+            margin-top: -30px;
+            font-size: 30px;
+        }
+        &__subheader {
+            font-size: 18px;
+        }
+        &__icons {
+            margin-top: 40px;
+            width: 380px;
+        }
+        &__link {
+            margin-top: 10px;
+            font-size: 14px;
+            }
+    }
+    .button {
+        width: 123px;
+        height: 24px;
+        font-size: 10px;
+        &_main {
+            margin-top: 50px;
+            width: 230px;
+            height: 40px;
+            font-size: 14px;
+        }
+        &_submit {
+            width: 100%;
+            height: 40px;
+            font-size: 14px;
+        }
+    }
+    .advantages {
+        &__icons {
+            margin-top: 20px;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__icon {
+            max-width: 380px;
+            img {
+                margin-top: 30px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .consultation {
+        &__descr {
+            font-size: 18px;
+        }
+    }
+    .feed-form {
+        width: 210px;
+        input {
+            height: 40px;
+            font-size: 12px;
+        }
+    }
+    .carousel {
+        &__inner {
+            height: 370px;
+            width: 400px;
+            img {
+                height: 300px;
+            }
+        }
+        .slick-prev {
+            transform: translateY(300%);
+            left: 150px;
+        }
+        .slick-next {
+            transform: translateY(300%);
+            right: 150px;
+        }
+    }
+    .catalog {
+        &__tab {
+            width: 180px;
+            font-size: 12px;
+            &_active {
+                color: #fff;
+            }
+        }
+        &__content {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .modal {
+        width: 300px;
+        min-height: 300px;
+    }
+}
+
+@media (max-width: 426px) {
+    .container {
+        max-width: 400px;
+    }
+    .title {
+        font-size: 14px;
+        &_left {
+            text-align: center;
+        }
+    }
+    .header {
+        margin-top: 0px;
+        flex-direction: column;
+        align-items: center;
+        &__official {
+            max-width: 300px;
+            margin-top: 10px;
+            font-size: 10px;
+            span {
+                font-size: 12px;
+            }
+        }
+        &__phone {
+            margin-top: 10px;
+            font-size: 10px;
+        }
+    }
+    .promo {
+        min-height: 550px;
+        padding: 21px 0 73px 0;
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            margin-top: -60px;
+            font-size: 20px;
+        }
+        &__subheader {
+            margin-top: 0px;
+            font-size: 14px;
+            text-align: center;
+        }
+        &__icons {
+            margin-top: 20px;
+            width: 290px;
+        }
+        &__icon {
+            font-size: 12px;
+        }
+        &__link {
+            margin-top: 5px;
+            font-size: 12px;
+            }
+    }
+    .button {
+        margin-top: 0px;
+        width: 90px;
+        height: 25px;
+        font-size: 8px;
+        &_main {
+            margin-top: 30px;
+            width: 200px;
+            height: 32px;
+            font-size: 12px;
+        }
+        &_submit {
+            align-items: center;
+            width: 70%;
+            height: 40px;
+            font-size: 10px;
+        }
+    }
+    .advantages {
+        &__icons {
+            margin-top: 10px;
+        }
+        &__icon {
+            max-width: 300px;
+            img {
+                margin-top: 30px;
+                margin-bottom: 20px;
+            }
+        }
+        &__subtitle {
+            font-size: 14px;
+        }
+        &__text {
+            margin-top: 10px;
+            font-size: 12px;
+        }
+    }
+    .consultation {
+        &__descr {
+            text-align: center;
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+    .feed-form {
+        width: 240px;
+        align-items: center;
+        input {
+            height: 35px;
+            font-size: 12px;
+        }
+    }
+    .carousel {
+        &__inner {
+            height: 280px;
+            width: 320px;
+            img {
+                height: 220px;
+            }
+        }
+        .slick-prev {
+            transform: translateY(200%);
+            left: 80px;
+            img {
+                width: 21px;
+            }
+        }
+        .slick-next {
+            transform: translateY(200%);
+            right: 80px;
+            img {
+                width: 21px;
+            }
+        }
+    }
+    .catalog {
+        &__tabs {
+            margin-top: 40px;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__tab {
+            width: 200px;
+            font-size: 12px;
+            margin-bottom: 15px;
+            &_active {
+                color: #fff;
+            }
+        }
+        &__content {
+            margin-top: 40px;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .footer {
+        &__info {
+            width: 300px;
+            height: 180px;
+            padding: 30px 60px 30px 60px;
+        }
+        &__addr {
+            margin-bottom: 20px;
+            font-size: 14px;
+            line-height: 14px;
+        }
+        &__phone {
+            font-size: 14px;
+            line-height: 14px;
+            margin-bottom: 30px;
+        }
+        &__social-item {
+            width: 30px;
+            height: 30px;
+            img{
+                height: 15px;
+            }
+        }
+    }
+    .modal {
+        width: 260px;
+        min-height: 300px;
+        padding: 38px 25px 28px 15px;
+    }
+}
+
+@media (max-width: 376px) {
+    .container {
+        max-width: 280px;
+    }
+    .carousel {
+        &__inner {
+            height: 240px;
+            width: 280px;
+            img {
+                height: 190px;
+            }
+        }
+        .slick-prev {
+            transform: translateY(170%);
+            left: 80px;
+            img {
+                width: 21px;
+            }
+        }
+        .slick-next {
+            transform: translateY(170%);
+            right: 80px;
+            img {
+                width: 21px;
+            }
+        }
+    }
+}
