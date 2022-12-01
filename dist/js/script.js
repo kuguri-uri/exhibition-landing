@@ -33,6 +33,9 @@ $(document).ready(function(){
     $('.button_mini').on('click', function() {
         $('.overlay, #order').fadeIn('slow');
     });
+    $('.button_calc').on('click', function() {
+        $('.overlay, #order').fadeIn('slow');
+    });
 
     $('form').submit(function(e) {
         e.preventDefault();
